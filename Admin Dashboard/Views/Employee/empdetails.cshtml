@@ -1,0 +1,198 @@
+﻿
+<div class="main-bg" id="content">
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+
+                        <div class="row space-around">
+                            <div class="row-center width-fit">
+                            <div>
+                                    <img src="~/emp3.jpg" class="table-row__img mr-3">
+                            </div>
+                               
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    mohamed ahmed salem
+                                    <br />
+                                    <span class="text-xs font-weight-bold text-primary text-uppercase mb-0"> Medical Rep  </span>
+                                </div>
+                                
+                        </div>
+                            <div class="row-center width-fit">
+                            <div class="flex">
+                                    <a asp-controller="Admin" asp-action="PersonalInfo" class="btn-center btn btn-sm btn-primary shadow-sm mr-2 btn-1">
+                                        <p class="flex p-0">Edit Personal-Info </p> <i class="bi bi-pencil-square flex"></i>
+                                    </a>
+                                    <a href="#" class="btn-center btn btn-sm btn-primary shadow-sm mr-2 btn-1">
+                                        <p class="flex p-0">Generate Task </p> <i class="bi bi-plus-circle flex"></i>
+                                    </a>
+                                    <a href="#" class="btn-center btn btn-sm btn-danger shadow-sm btn-1">
+                                        <p class="flex p-0">Remove Employee </p>  <i class="bi bi-trash3 flex"></i>
+                                    </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container">
+
+    <div class="row row--top-20 bg-wh">
+        <div class="col-md-12">
+            <div class="table-container">
+                <table class="table" style="border-radius:30px">
+                    <thead class="table__thead">
+                        <tr>
+
+                            <th class="table__th">Client's</th>
+                            <th class="table__th">Phone number</th>
+                            <th class="table__th">Policy status</th>
+                            <th class="table__th">Area</th>
+                            <th class="table__th">Status</th>
+                            <th class="table__th">Progress</th>
+                            <th class="table__th">Manage</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table__tbody">
+                        <tr class="table-row table-row--chris">
+
+                            <td class="table-row__td">
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Dr Ericssen</p>
+                                            <a href="" class="no-underline">Health pharma</a>
+                                </div>
+                            </td>
+                            <td data-column="Phonenumber" class="table-row__td">
+                                <div class="">
+                                    <p class="table-row__policy">+20 0347383</p>
+                                    <p class="table-row__policy">+055 234411</p>
+
+                                   
+                                </div>
+                            </td>
+                            <td data-column="Policy status" class="table-row__td">
+                                <p class="table-row__p-status status--green status">Approved</p>
+                            </td>
+                            <td data-column="Destination" class="table-row__td">
+                                qawomia-Zag
+                            </td>
+                            <td data-column="Status" class="table-row__td">
+                                <p class="table-row__status status--green status">Active</p>
+                            </td>
+                            <td data-column="Progress" class="table-row__td">
+                                <p class="table-row__progress status--blue status">On Track</p>
+                            </td>
+                           
+                            <td class="table-row__td">
+
+                                        <a asp-action="EmployeeDetails" asp-controller="Admin" class="btn btn-primary btn-sm btn-1">details</a>
+                                        <a asp-action="EmployeeDetails" asp-controller="Admin" class="btn btn-danger btn-sm btn-1">Delete</a>
+
+
+
+
+
+                            </td>
+                        </tr>
+
+                        <tr class="table-row table-row--chris">
+
+                                    <td class="table-row__td">
+                                        <div class="table-row__info">
+                                            <p class="table-row__name">Dr Maged</p>
+                                            <a href="" class="no-underline">maged pharma</a>
+                                        </div>
+                                    </td>
+                                    <td data-column="Phonenumber" class="table-row__td">
+                                        <div class="">
+                                            <p class="table-row__policy">+20 0347383</p>
+                                            <p class="table-row__policy">+055 234411</p>
+
+
+                                        </div>
+                                    </td>
+                                    <td data-column="Policy status" class="table-row__td">
+                                        <p class="table-row__p-status status--green status">Approved</p>
+                                    </td>
+                                    <td data-column="Destination" class="table-row__td">
+                                        Qenayat-Qen
+                                    </td>
+                                    <td data-column="Status" class="table-row__td">
+                                        <p class="table-row__status status--green status">Active</p>
+                                    </td>
+                                    <td data-column="Progress" class="table-row__td">
+                                        <p class="table-row__progress status--blue status">On Track</p>
+                                    </td>
+
+                                    <td class="table-row__td">
+
+                                        <a asp-action="EmployeeDetails" asp-controller="Admin" class="btn btn-primary btn-sm btn-1">details</a>
+                                        <a asp-action="EmployeeDetails" asp-controller="Admin" class="btn btn-danger btn-sm btn-1">Delete</a>
+
+
+
+
+
+                                    </td>
+                                </tr>
+
+                        <tr class="table-row table-row--chris">
+
+                                    <td class="table-row__td">
+                                        <div class="table-row__info">
+                                            <p class="table-row__name">Dr Nadeen</p>
+                                            <a href="" class="no-underline">o2 pharma</a>
+                                        </div>
+                                    </td>
+                                    <td data-column="Phonenumber" class="table-row__td">
+                                        <div class="">
+                                            <p class="table-row__policy">+20 0347383</p>
+                                            <p class="table-row__policy">+055 234411</p>
+
+
+                                        </div>
+                                    </td>
+                                    <td data-column="Policy status" class="table-row__td">
+                                        <p class="table-row__p-status status--green status">Approved</p>
+                                    </td>
+                                    <td data-column="Destination" class="table-row__td">
+                                        farouk-street-Zag
+                                    </td>
+                                    <td data-column="Status" class="table-row__td">
+                                        <p class="table-row__status status--green status">Active</p>
+                                    </td>
+                                    <td data-column="Progress" class="table-row__td">
+                                        <p class="table-row__progress status--blue status">On Track</p>
+                                    </td>
+
+                                    <td class="table-row__td">
+
+                                        <a asp-action="EmployeeDetails" asp-controller="Admin" class="btn btn-primary btn-sm btn-1">details</a>
+                                        <a asp-action="EmployeeDetails" asp-controller="Admin" class="btn btn-danger btn-sm btn-1">Delete</a>
+
+
+
+
+
+                                    </td>
+                                </tr>
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

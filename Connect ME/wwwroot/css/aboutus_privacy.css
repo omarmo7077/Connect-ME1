@@ -1,0 +1,20 @@
+h3 {
+    color: #37517e;
+}
+hr {
+    color: #007aff;
+    
+}
+
+
+.contact .php-email-form {
+    width: 100%;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+p{
+    font-size:large;
+}

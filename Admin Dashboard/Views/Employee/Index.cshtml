@@ -1,0 +1,165 @@
+﻿<div class="main-bg" id="content">
+
+  
+    <!-- End of Topbar -->
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4 dashboard-card">
+            <h1 class="h3 mb-0 text-gray-800">Employees List</h1>
+            <div class="flex">
+               
+                <a href="#" class="btn-center btn btn-sm btn-primary shadow-sm mr-2 btn-1">
+                    <p class="flex p-0">Generate imediatly Task </p> <i class="bi bi-plus-circle flex"></i>
+                </a>
+                <a href="#" class="btn-center btn btn-sm btn-secondary shadow-sm btn-1">
+                    <p class="flex p-0">more </p>  <i class="bi bi-three-dots"></i>
+                </a>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="container">
+
+        <div class="row row--top-20 bg-wh row-table">
+            <div class="col-md-12">
+                <div class="table-container">
+                    <table class="table" style="border-radius:30px">
+                        <thead class="table__thead">
+                            <tr>
+
+                                <th class="table__th">Name</th>
+                                <th class="table__th">Phone number</th>
+                                <th class="table__th">Policy status</th>
+                                <th class="table__th">Area</th>
+                                <th class="table__th">Status</th>
+                                <th class="table__th">Progress</th>
+                                <th class="table__th">Manage</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table__tbody">
+                            <tr class="table-row table-row--chris">
+
+                                <td class="table-row__td">
+                                    <div class="table-row__img"></div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Christin Ericssen</p>
+                                        <span class="table-row__small">Medical Rep</span>
+                                    </div>
+                                </td>
+                                <td data-column="Policy" class="table-row__td">
+                                    <div class="">
+                                        <p class="table-row__policy">$5,000</p>
+                                        <span class="table-row__small">Basic Policy</span>
+                                    </div>
+                                </td>
+                                <td data-column="Policy status" class="table-row__td">
+                                    <p class="table-row__p-status status--green status">Approved</p>
+                                </td>
+                                <td data-column="Destination" class="table-row__td">
+                                    Huston, US
+                                </td>
+                                <td data-column="Status" class="table-row__td">
+                                    <p class="table-row__status status--green status">Active</p>
+                                </td>
+                                <td data-column="Progress" class="table-row__td">
+                                    <p class="table-row__progress status--blue status">On Track</p>
+                                </td>
+                                
+                                <td class="table-row__td">
+
+                                    <a asp-action="EmpDetails" asp-controller="Employee" class="btn btn-primary btn-sm btn-1">details</a>
+                                    <a asp-action="EmpDetails" asp-controller="Employee" class="btn btn-danger btn-sm btn-1">Delete</a>
+                                </td>
+                            </tr>
+
+                            <tr class="table-row table-row--angie">
+
+                                <td class="table-row__td">
+                                    <div class="table-row__img"></div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Angie E. Swift</p>
+                                        <span class="table-row__small">Vp of Sales</span>
+                                    </div>
+                                </td>
+                                <td data-column="Policy" class="table-row__td">
+                                    <div class="">
+                                        <p class="table-row__policy">$20,000</p>
+                                        <span class="table-row__small">All Inclusive Policy</span>
+                                    </div>
+                                </td>
+                                <td data-column="Policy Status" class="table-row__td">
+                                    <p class="table-row__p-status status status--yellow">Awating Approval</p>
+                                </td>
+                                <td data-column="Destination" class="table-row__td">
+                                    Huston, US
+                                </td>
+                                <td data-column="Status" class="table-row__td">
+                                    <p class="table-row__status">Waiting</p>
+                                </td>
+                                <td data-column="Progress" class="table-row__td">
+                                    <p class="table-row__progress">Waiting</p>
+                                </td>
+                                <td class="table-row__td">
+
+                                    <a asp-action="EmpDetails" asp-controller="Employee" class="btn btn-primary btn-sm btn-1">details</a>
+                                    <a asp-action="EmpDetails" asp-controller="Employee" class="btn btn-danger btn-sm btn-1">Delete</a>
+                                </td>
+                            </tr>
+
+                            <tr class="table-row table-row--ronald">
+
+                                <td class="table-row__td">
+                                    <div class="table-row__img"></div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Ronals Koeman</p>
+                                        <span class="table-row__small">Advisory board</span>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                    <div data-column="Policy" class="">
+                                        <p class="table-row__policy">$5,000</p>
+                                        <span class="table-row__small">Basic Policy</span>
+                                    </div>
+                                </td>
+                                <td data-column="Policy status" class="table-row__td">
+                                    <p class="table-row__p-status status--green status">Approved</p>
+                                </td>
+                                <td data-column="destination" class="table-row__td">
+                                    Huston, US
+                                </td>
+                                <td data-column="status" class="table-row__td">
+                                    <p class="table-row__status">Canceled</p>
+                                </td>
+                                <td data-column="pregress" class="table-row__td">
+                                    <p class="table-row__progress status--blue status">Canceled</p>
+                                </td>
+                                <td class="table-row__td">
+
+                                    <a asp-action="EmpDetails" asp-controller="Employee" class="btn btn-primary btn-sm btn-1">details</a>
+                                    <a asp-action="EmpDetails" asp-controller="Employee" class="btn btn-danger btn-sm btn-1">Delete</a>
+                                </td>
+                            </tr>
+
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Content Row -->
+
+
+
+</div>
+       
